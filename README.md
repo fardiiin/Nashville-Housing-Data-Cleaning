@@ -1,5 +1,5 @@
 # NashvilleHousingData-Cleaning
-I have used the dataset "Nashville Housing Data for Data Cleaning (reuploaded).xlsx" in BigQuery to clean it and create a new final table "final data after cleaning.csv"
+I have used the dataset "Nashville Housing Data for Data Cleaning (reuploaded).xlsx" in BigQuery to clean it to "final data after cleaning.csv" here.
 
 1. Converted SaleDate to Standard Date format
 2. Populated the Null Property addresses
@@ -8,6 +8,6 @@ I have used the dataset "Nashville Housing Data for Data Cleaning (reuploaded).x
 5. Removed any duplicate entries
 6. Finally, retrieved the necessary columns from the table (UID, PropAddress, PropCity, SaleDate, ParcelID, LandUse, SalePrice, LegalReference, SoldAsVacant, OwnerName, OwnerAddress, OwnerCity, OwnerState, Acreage, LandValue, BuildingValue, TotalValue, YearBuilt, Bedrooms, FullBath, HalfBath).
 
-This is my first time cleaning data using SQL. Because of using the free version of BigQuery, I ran into some limitations. I couldn't use the UPDATE statement here, so I had to make 5 new tables to keep working on my project.
+This is my first time cleaning data using SQL. Because of using the free version of BigQuery, I ran into some limitations. I couldn't use the UPDATE statement here, so I had to make intermediate VIEWs to keep working on my project.
 
 In BigQuery, the Project name is "ata-data-ceaning" and the dataset is named as "NashvilleHousing" here!
