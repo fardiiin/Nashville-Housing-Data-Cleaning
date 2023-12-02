@@ -1,4 +1,4 @@
-# NashvilleHousingData-Cleaning
+# Nashville Housing Data Cleaning
 I have used the dataset "Nashville Housing Data for Data Cleaning (reuploaded).xlsx" in BigQuery to clean it to "final data after cleaning.csv" here.
 
 1. Converted SaleDate to Standard Date format
